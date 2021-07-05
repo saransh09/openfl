@@ -1,0 +1,15 @@
+# VPN Settings
+conda activate ofl
+export http_proxy=http://proxy-us.intel.com:911
+export https_proxy=http://proxy-us.intel.com:911
+export no_proxy=localhost
+
+nohup python run_aggreagator.py --seed 49 --epochs 40 > agg_seed_49_epochs_40.txt &
+nohup fx collaborator start -d data.yaml -n one > col_one_seed_49_epochs_40.txt &
+nohup fx collaborator start -d data.yaml -n two > col_two_seed_49_epochs_40.txt &
+
+# The command to extract only the localy tuned aggregated score into a text file
+cat agg_seed_2_epochs_40.txt | grep "localy_tuned_model_validate task metrics..." -A1 | grep "dice_coef:" > localy_tuned.txt
+
+# The command to extract only the aggregated model score into a text file
+cat agg_seed_2_epochs_40.txt | grep "aggregated_model_validate task metrics..." -A1 | grep "dice_coef:" > aggregated.txt

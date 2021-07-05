@@ -1,0 +1,673 @@
+tried to remove tensor: __opt_state_needed not present in the tensor dict
+tried to remove tensor: __opt_state_needed not present in the tensor dict
+WARNING:openfl.transport.grpc.server:gRPC is running on insecure channel with TLS disabled.
+INFO:openfl.transport.grpc.server:Starting Aggregator gRPC Server
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator one for round 0
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator two for round 0
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for train, round 0
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for train, round 0
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for localy_tuned_model_validate, round 0
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for localy_tuned_model_validate, round 0
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for aggregated_model_validate, round 0
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for aggregated_model_validate, round 0
+INFO:openfl.component.aggregator.aggregator:aggregated_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.1964
+INFO:openfl.component.aggregator.aggregator:Saved the best model with score 0.196394
+INFO:openfl.component.aggregator.aggregator:train task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> train_loss:	0.6633
+INFO:openfl.component.aggregator.aggregator:localy_tuned_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.3495
+INFO:openfl.component.aggregator.aggregator:Saving round 1 model...
+INFO:openfl.component.aggregator.aggregator:Starting round 1...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator one for round 1
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator two for round 1
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for train, round 1
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for train, round 1
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for localy_tuned_model_validate, round 1
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for localy_tuned_model_validate, round 1
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for aggregated_model_validate, round 1
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for aggregated_model_validate, round 1
+INFO:openfl.component.aggregator.aggregator:aggregated_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.3274
+INFO:openfl.component.aggregator.aggregator:Saved the best model with score 0.327429
+INFO:openfl.component.aggregator.aggregator:train task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> train_loss:	0.6125
+INFO:openfl.component.aggregator.aggregator:localy_tuned_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.3764
+INFO:openfl.component.aggregator.aggregator:Saving round 2 model...
+INFO:openfl.component.aggregator.aggregator:Starting round 2...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator two for round 2
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator one for round 2
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for train, round 2
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for train, round 2
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for localy_tuned_model_validate, round 2
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for localy_tuned_model_validate, round 2
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for aggregated_model_validate, round 2
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for aggregated_model_validate, round 2
+INFO:openfl.component.aggregator.aggregator:aggregated_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.3866
+INFO:openfl.component.aggregator.aggregator:Saved the best model with score 0.386606
+INFO:openfl.component.aggregator.aggregator:train task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> train_loss:	0.5850
+INFO:openfl.component.aggregator.aggregator:localy_tuned_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.3633
+INFO:openfl.component.aggregator.aggregator:Saving round 3 model...
+INFO:openfl.component.aggregator.aggregator:Starting round 3...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator two for round 3
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator one for round 3
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for train, round 3
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for train, round 3
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for localy_tuned_model_validate, round 3
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for localy_tuned_model_validate, round 3
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for aggregated_model_validate, round 3
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for aggregated_model_validate, round 3
+INFO:openfl.component.aggregator.aggregator:aggregated_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.3946
+INFO:openfl.component.aggregator.aggregator:Saved the best model with score 0.394603
+INFO:openfl.component.aggregator.aggregator:train task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> train_loss:	0.5713
+INFO:openfl.component.aggregator.aggregator:localy_tuned_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.4022
+INFO:openfl.component.aggregator.aggregator:Saving round 4 model...
+INFO:openfl.component.aggregator.aggregator:Starting round 4...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator one for round 4
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator two for round 4
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for train, round 4
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for localy_tuned_model_validate, round 4
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for train, round 4
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for aggregated_model_validate, round 4
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for localy_tuned_model_validate, round 4
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for aggregated_model_validate, round 4
+INFO:openfl.component.aggregator.aggregator:aggregated_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.4236
+INFO:openfl.component.aggregator.aggregator:Saved the best model with score 0.423582
+INFO:openfl.component.aggregator.aggregator:train task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> train_loss:	0.5547
+INFO:openfl.component.aggregator.aggregator:localy_tuned_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.4009
+INFO:openfl.component.aggregator.aggregator:Saving round 5 model...
+INFO:openfl.component.aggregator.aggregator:Starting round 5...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator two for round 5
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator one for round 5
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for train, round 5
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for train, round 5
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for localy_tuned_model_validate, round 5
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for localy_tuned_model_validate, round 5
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for aggregated_model_validate, round 5
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for aggregated_model_validate, round 5
+INFO:openfl.component.aggregator.aggregator:aggregated_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.4125
+INFO:openfl.component.aggregator.aggregator:train task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> train_loss:	0.5428
+INFO:openfl.component.aggregator.aggregator:localy_tuned_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.4315
+INFO:openfl.component.aggregator.aggregator:Saving round 6 model...
+INFO:openfl.component.aggregator.aggregator:Starting round 6...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator one for round 6
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator two for round 6
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for train, round 6
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for train, round 6
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for localy_tuned_model_validate, round 6
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for localy_tuned_model_validate, round 6
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for aggregated_model_validate, round 6
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for aggregated_model_validate, round 6
+INFO:openfl.component.aggregator.aggregator:aggregated_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.4386
+INFO:openfl.component.aggregator.aggregator:Saved the best model with score 0.438562
+INFO:openfl.component.aggregator.aggregator:train task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> train_loss:	0.5272
+INFO:openfl.component.aggregator.aggregator:localy_tuned_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.4434
+INFO:openfl.component.aggregator.aggregator:Saving round 7 model...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator one for round 7
+INFO:openfl.component.aggregator.aggregator:Starting round 7...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator two for round 7
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for train, round 7
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for train, round 7
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for localy_tuned_model_validate, round 7
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for localy_tuned_model_validate, round 7
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for aggregated_model_validate, round 7
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for aggregated_model_validate, round 7
+INFO:openfl.component.aggregator.aggregator:aggregated_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.4502
+INFO:openfl.component.aggregator.aggregator:Saved the best model with score 0.450213
+INFO:openfl.component.aggregator.aggregator:train task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> train_loss:	0.5095
+INFO:openfl.component.aggregator.aggregator:localy_tuned_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.4421
+INFO:openfl.component.aggregator.aggregator:Saving round 8 model...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator one for round 8
+INFO:openfl.component.aggregator.aggregator:Starting round 8...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator two for round 8
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for train, round 8
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for train, round 8
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for localy_tuned_model_validate, round 8
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for localy_tuned_model_validate, round 8
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for aggregated_model_validate, round 8
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for aggregated_model_validate, round 8
+INFO:openfl.component.aggregator.aggregator:aggregated_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.4506
+INFO:openfl.component.aggregator.aggregator:Saved the best model with score 0.450594
+INFO:openfl.component.aggregator.aggregator:train task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> train_loss:	0.4980
+INFO:openfl.component.aggregator.aggregator:localy_tuned_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.4737
+INFO:openfl.component.aggregator.aggregator:Saving round 9 model...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator one for round 9
+INFO:openfl.component.aggregator.aggregator:Starting round 9...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator two for round 9
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for train, round 9
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for train, round 9
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for localy_tuned_model_validate, round 9
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for localy_tuned_model_validate, round 9
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for aggregated_model_validate, round 9
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for aggregated_model_validate, round 9
+INFO:openfl.component.aggregator.aggregator:aggregated_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.4878
+INFO:openfl.component.aggregator.aggregator:Saved the best model with score 0.487766
+INFO:openfl.component.aggregator.aggregator:train task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> train_loss:	0.4764
+INFO:openfl.component.aggregator.aggregator:localy_tuned_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.4741
+INFO:openfl.component.aggregator.aggregator:Saving round 10 model...
+INFO:openfl.component.aggregator.aggregator:Starting round 10...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator two for round 10
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator one for round 10
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for train, round 10
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for localy_tuned_model_validate, round 10
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for train, round 10
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for aggregated_model_validate, round 10
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for localy_tuned_model_validate, round 10
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for aggregated_model_validate, round 10
+INFO:openfl.component.aggregator.aggregator:aggregated_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.4851
+INFO:openfl.component.aggregator.aggregator:train task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> train_loss:	0.4609
+INFO:openfl.component.aggregator.aggregator:localy_tuned_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.4969
+INFO:openfl.component.aggregator.aggregator:Saving round 11 model...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator two for round 11
+INFO:openfl.component.aggregator.aggregator:Starting round 11...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator one for round 11
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for train, round 11
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for train, round 11
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for localy_tuned_model_validate, round 11
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for localy_tuned_model_validate, round 11
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for aggregated_model_validate, round 11
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for aggregated_model_validate, round 11
+INFO:openfl.component.aggregator.aggregator:aggregated_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.5177
+INFO:openfl.component.aggregator.aggregator:Saved the best model with score 0.517700
+INFO:openfl.component.aggregator.aggregator:train task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> train_loss:	0.4471
+INFO:openfl.component.aggregator.aggregator:localy_tuned_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.5072
+INFO:openfl.component.aggregator.aggregator:Saving round 12 model...
+INFO:openfl.component.aggregator.aggregator:Starting round 12...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator two for round 12
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator one for round 12
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for train, round 12
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for train, round 12
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for localy_tuned_model_validate, round 12
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for localy_tuned_model_validate, round 12
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for aggregated_model_validate, round 12
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for aggregated_model_validate, round 12
+INFO:openfl.component.aggregator.aggregator:aggregated_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.5236
+INFO:openfl.component.aggregator.aggregator:Saved the best model with score 0.523621
+INFO:openfl.component.aggregator.aggregator:train task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> train_loss:	0.4414
+INFO:openfl.component.aggregator.aggregator:localy_tuned_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.4940
+INFO:openfl.component.aggregator.aggregator:Saving round 13 model...
+INFO:openfl.component.aggregator.aggregator:Starting round 13...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator two for round 13
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator one for round 13
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for train, round 13
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for train, round 13
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for localy_tuned_model_validate, round 13
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for localy_tuned_model_validate, round 13
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for aggregated_model_validate, round 13
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for aggregated_model_validate, round 13
+INFO:openfl.component.aggregator.aggregator:aggregated_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.5072
+INFO:openfl.component.aggregator.aggregator:train task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> train_loss:	0.4113
+INFO:openfl.component.aggregator.aggregator:localy_tuned_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.5402
+INFO:openfl.component.aggregator.aggregator:Saving round 14 model...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator one for round 14
+INFO:openfl.component.aggregator.aggregator:Starting round 14...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator two for round 14
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for train, round 14
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for train, round 14
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for localy_tuned_model_validate, round 14
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for localy_tuned_model_validate, round 14
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for aggregated_model_validate, round 14
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for aggregated_model_validate, round 14
+INFO:openfl.component.aggregator.aggregator:aggregated_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.5604
+INFO:openfl.component.aggregator.aggregator:Saved the best model with score 0.560437
+INFO:openfl.component.aggregator.aggregator:train task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> train_loss:	0.3817
+INFO:openfl.component.aggregator.aggregator:localy_tuned_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.5403
+INFO:openfl.component.aggregator.aggregator:Saving round 15 model...
+INFO:openfl.component.aggregator.aggregator:Starting round 15...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator two for round 15
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator one for round 15
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for train, round 15
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for localy_tuned_model_validate, round 15
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for train, round 15
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for aggregated_model_validate, round 15
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for localy_tuned_model_validate, round 15
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for aggregated_model_validate, round 15
+INFO:openfl.component.aggregator.aggregator:aggregated_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.5406
+INFO:openfl.component.aggregator.aggregator:train task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> train_loss:	0.3655
+INFO:openfl.component.aggregator.aggregator:localy_tuned_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.5778
+INFO:openfl.component.aggregator.aggregator:Saving round 16 model...
+INFO:openfl.component.aggregator.aggregator:Starting round 16...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator one for round 16
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator two for round 16
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for train, round 16
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for localy_tuned_model_validate, round 16
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for train, round 16
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for aggregated_model_validate, round 16
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for localy_tuned_model_validate, round 16
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for aggregated_model_validate, round 16
+INFO:openfl.component.aggregator.aggregator:aggregated_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.6159
+INFO:openfl.component.aggregator.aggregator:Saved the best model with score 0.615875
+INFO:openfl.component.aggregator.aggregator:train task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> train_loss:	0.3460
+INFO:openfl.component.aggregator.aggregator:localy_tuned_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.5652
+INFO:openfl.component.aggregator.aggregator:Saving round 17 model...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator one for round 17
+INFO:openfl.component.aggregator.aggregator:Starting round 17...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator two for round 17
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for train, round 17
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for train, round 17
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for localy_tuned_model_validate, round 17
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for localy_tuned_model_validate, round 17
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for aggregated_model_validate, round 17
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for aggregated_model_validate, round 17
+INFO:openfl.component.aggregator.aggregator:aggregated_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.6206
+INFO:openfl.component.aggregator.aggregator:Saved the best model with score 0.620565
+INFO:openfl.component.aggregator.aggregator:train task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> train_loss:	0.3330
+INFO:openfl.component.aggregator.aggregator:localy_tuned_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.6073
+INFO:openfl.component.aggregator.aggregator:Saving round 18 model...
+INFO:openfl.component.aggregator.aggregator:Starting round 18...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator two for round 18
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator one for round 18
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for train, round 18
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for train, round 18
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for localy_tuned_model_validate, round 18
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for localy_tuned_model_validate, round 18
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for aggregated_model_validate, round 18
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for aggregated_model_validate, round 18
+INFO:openfl.component.aggregator.aggregator:aggregated_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.6284
+INFO:openfl.component.aggregator.aggregator:Saved the best model with score 0.628379
+INFO:openfl.component.aggregator.aggregator:train task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> train_loss:	0.3189
+INFO:openfl.component.aggregator.aggregator:localy_tuned_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.6351
+INFO:openfl.component.aggregator.aggregator:Saving round 19 model...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator one for round 19
+INFO:openfl.component.aggregator.aggregator:Starting round 19...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator two for round 19
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for train, round 19
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for train, round 19
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for localy_tuned_model_validate, round 19
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for localy_tuned_model_validate, round 19
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for aggregated_model_validate, round 19
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for aggregated_model_validate, round 19
+INFO:openfl.component.aggregator.aggregator:aggregated_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.6668
+INFO:openfl.component.aggregator.aggregator:Saved the best model with score 0.666805
+INFO:openfl.component.aggregator.aggregator:train task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> train_loss:	0.3012
+INFO:openfl.component.aggregator.aggregator:localy_tuned_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.6022
+INFO:openfl.component.aggregator.aggregator:Saving round 20 model...
+INFO:openfl.component.aggregator.aggregator:Starting round 20...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator two for round 20
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator one for round 20
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for train, round 20
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for localy_tuned_model_validate, round 20
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for train, round 20
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for aggregated_model_validate, round 20
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for localy_tuned_model_validate, round 20
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for aggregated_model_validate, round 20
+INFO:openfl.component.aggregator.aggregator:aggregated_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.6470
+INFO:openfl.component.aggregator.aggregator:train task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> train_loss:	0.2862
+INFO:openfl.component.aggregator.aggregator:localy_tuned_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.6723
+INFO:openfl.component.aggregator.aggregator:Saving round 21 model...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator two for round 21
+INFO:openfl.component.aggregator.aggregator:Starting round 21...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator one for round 21
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for train, round 21
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for train, round 21
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for localy_tuned_model_validate, round 21
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for aggregated_model_validate, round 21
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for localy_tuned_model_validate, round 21
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for aggregated_model_validate, round 21
+INFO:openfl.component.aggregator.aggregator:aggregated_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.6871
+INFO:openfl.component.aggregator.aggregator:Saved the best model with score 0.687094
+INFO:openfl.component.aggregator.aggregator:train task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> train_loss:	0.2722
+INFO:openfl.component.aggregator.aggregator:localy_tuned_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.6617
+INFO:openfl.component.aggregator.aggregator:Saving round 22 model...
+INFO:openfl.component.aggregator.aggregator:Starting round 22...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator two for round 22
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator one for round 22
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for train, round 22
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for train, round 22
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for localy_tuned_model_validate, round 22
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for localy_tuned_model_validate, round 22
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for aggregated_model_validate, round 22
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for aggregated_model_validate, round 22
+INFO:openfl.component.aggregator.aggregator:aggregated_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.6882
+INFO:openfl.component.aggregator.aggregator:Saved the best model with score 0.688223
+INFO:openfl.component.aggregator.aggregator:train task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> train_loss:	0.2664
+INFO:openfl.component.aggregator.aggregator:localy_tuned_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.6528
+INFO:openfl.component.aggregator.aggregator:Saving round 23 model...
+INFO:openfl.component.aggregator.aggregator:Starting round 23...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator two for round 23
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator one for round 23
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for train, round 23
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for train, round 23
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for localy_tuned_model_validate, round 23
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for localy_tuned_model_validate, round 23
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for aggregated_model_validate, round 23
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for aggregated_model_validate, round 23
+INFO:openfl.component.aggregator.aggregator:aggregated_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.6866
+INFO:openfl.component.aggregator.aggregator:train task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> train_loss:	0.2501
+INFO:openfl.component.aggregator.aggregator:localy_tuned_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.6609
+INFO:openfl.component.aggregator.aggregator:Saving round 24 model...
+INFO:openfl.component.aggregator.aggregator:Starting round 24...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator two for round 24
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator one for round 24
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for train, round 24
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for train, round 24
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for localy_tuned_model_validate, round 24
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for localy_tuned_model_validate, round 24
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for aggregated_model_validate, round 24
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for aggregated_model_validate, round 24
+INFO:openfl.component.aggregator.aggregator:aggregated_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.6735
+INFO:openfl.component.aggregator.aggregator:train task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> train_loss:	0.2310
+INFO:openfl.component.aggregator.aggregator:localy_tuned_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.6657
+INFO:openfl.component.aggregator.aggregator:Saving round 25 model...
+INFO:openfl.component.aggregator.aggregator:Starting round 25...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator two for round 25
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator one for round 25
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for train, round 25
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for train, round 25
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for localy_tuned_model_validate, round 25
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for localy_tuned_model_validate, round 25
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for aggregated_model_validate, round 25
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for aggregated_model_validate, round 25
+INFO:openfl.component.aggregator.aggregator:aggregated_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.7002
+INFO:openfl.component.aggregator.aggregator:Saved the best model with score 0.700229
+INFO:openfl.component.aggregator.aggregator:train task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> train_loss:	0.2484
+INFO:openfl.component.aggregator.aggregator:localy_tuned_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.6920
+INFO:openfl.component.aggregator.aggregator:Saving round 26 model...
+INFO:openfl.component.aggregator.aggregator:Starting round 26...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator two for round 26
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator one for round 26
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for train, round 26
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for train, round 26
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for localy_tuned_model_validate, round 26
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for localy_tuned_model_validate, round 26
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for aggregated_model_validate, round 26
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for aggregated_model_validate, round 26
+INFO:openfl.component.aggregator.aggregator:aggregated_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.7200
+INFO:openfl.component.aggregator.aggregator:Saved the best model with score 0.719990
+INFO:openfl.component.aggregator.aggregator:train task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> train_loss:	0.2258
+INFO:openfl.component.aggregator.aggregator:localy_tuned_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.6870
+INFO:openfl.component.aggregator.aggregator:Saving round 27 model...
+INFO:openfl.component.aggregator.aggregator:Starting round 27...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator two for round 27
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator one for round 27
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for train, round 27
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for train, round 27
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for localy_tuned_model_validate, round 27
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for localy_tuned_model_validate, round 27
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for aggregated_model_validate, round 27
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for aggregated_model_validate, round 27
+INFO:openfl.component.aggregator.aggregator:aggregated_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.7319
+INFO:openfl.component.aggregator.aggregator:Saved the best model with score 0.731895
+INFO:openfl.component.aggregator.aggregator:train task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> train_loss:	0.2199
+INFO:openfl.component.aggregator.aggregator:localy_tuned_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.6343
+INFO:openfl.component.aggregator.aggregator:Saving round 28 model...
+INFO:openfl.component.aggregator.aggregator:Starting round 28...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator two for round 28
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator one for round 28
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for train, round 28
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for train, round 28
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for localy_tuned_model_validate, round 28
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for localy_tuned_model_validate, round 28
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for aggregated_model_validate, round 28
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for aggregated_model_validate, round 28
+INFO:openfl.component.aggregator.aggregator:aggregated_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.6764
+INFO:openfl.component.aggregator.aggregator:train task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> train_loss:	0.2184
+INFO:openfl.component.aggregator.aggregator:localy_tuned_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.7097
+INFO:openfl.component.aggregator.aggregator:Saving round 29 model...
+INFO:openfl.component.aggregator.aggregator:Starting round 29...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator one for round 29
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator two for round 29
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for train, round 29
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for localy_tuned_model_validate, round 29
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for train, round 29
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for aggregated_model_validate, round 29
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for localy_tuned_model_validate, round 29
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for aggregated_model_validate, round 29
+INFO:openfl.component.aggregator.aggregator:aggregated_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.7411
+INFO:openfl.component.aggregator.aggregator:Saved the best model with score 0.741117
+INFO:openfl.component.aggregator.aggregator:train task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> train_loss:	0.1978
+INFO:openfl.component.aggregator.aggregator:localy_tuned_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.7191
+INFO:openfl.component.aggregator.aggregator:Saving round 30 model...
+INFO:openfl.component.aggregator.aggregator:Starting round 30...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator two for round 30
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator one for round 30
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for train, round 30
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for train, round 30
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for localy_tuned_model_validate, round 30
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for localy_tuned_model_validate, round 30
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for aggregated_model_validate, round 30
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for aggregated_model_validate, round 30
+INFO:openfl.component.aggregator.aggregator:aggregated_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.7497
+INFO:openfl.component.aggregator.aggregator:Saved the best model with score 0.749712
+INFO:openfl.component.aggregator.aggregator:train task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> train_loss:	0.1890
+INFO:openfl.component.aggregator.aggregator:localy_tuned_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.7128
+INFO:openfl.component.aggregator.aggregator:Saving round 31 model...
+INFO:openfl.component.aggregator.aggregator:Starting round 31...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator two for round 31
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator one for round 31
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for train, round 31
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for train, round 31
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for localy_tuned_model_validate, round 31
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for localy_tuned_model_validate, round 31
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for aggregated_model_validate, round 31
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for aggregated_model_validate, round 31
+INFO:openfl.component.aggregator.aggregator:aggregated_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.7449
+INFO:openfl.component.aggregator.aggregator:train task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> train_loss:	0.1775
+INFO:openfl.component.aggregator.aggregator:localy_tuned_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.7340
+INFO:openfl.component.aggregator.aggregator:Saving round 32 model...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator one for round 32
+INFO:openfl.component.aggregator.aggregator:Starting round 32...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator two for round 32
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for train, round 32
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for train, round 32
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for localy_tuned_model_validate, round 32
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for localy_tuned_model_validate, round 32
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for aggregated_model_validate, round 32
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for aggregated_model_validate, round 32
+INFO:openfl.component.aggregator.aggregator:aggregated_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.7605
+INFO:openfl.component.aggregator.aggregator:Saved the best model with score 0.760455
+INFO:openfl.component.aggregator.aggregator:train task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> train_loss:	0.1738
+INFO:openfl.component.aggregator.aggregator:localy_tuned_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.7396
+INFO:openfl.component.aggregator.aggregator:Saving round 33 model...
+INFO:openfl.component.aggregator.aggregator:Starting round 33...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator two for round 33
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator one for round 33
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for train, round 33
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for train, round 33
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for localy_tuned_model_validate, round 33
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for localy_tuned_model_validate, round 33
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for aggregated_model_validate, round 33
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for aggregated_model_validate, round 33
+INFO:openfl.component.aggregator.aggregator:aggregated_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.7620
+INFO:openfl.component.aggregator.aggregator:Saved the best model with score 0.761999
+INFO:openfl.component.aggregator.aggregator:train task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> train_loss:	0.1631
+INFO:openfl.component.aggregator.aggregator:localy_tuned_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.7203
+INFO:openfl.component.aggregator.aggregator:Saving round 34 model...
+INFO:openfl.component.aggregator.aggregator:Starting round 34...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator two for round 34
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator one for round 34
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for train, round 34
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for train, round 34
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for localy_tuned_model_validate, round 34
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for localy_tuned_model_validate, round 34
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for aggregated_model_validate, round 34
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for aggregated_model_validate, round 34
+INFO:openfl.component.aggregator.aggregator:aggregated_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.7644
+INFO:openfl.component.aggregator.aggregator:Saved the best model with score 0.764403
+INFO:openfl.component.aggregator.aggregator:train task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> train_loss:	0.1656
+INFO:openfl.component.aggregator.aggregator:localy_tuned_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.7257
+INFO:openfl.component.aggregator.aggregator:Saving round 35 model...
+INFO:openfl.component.aggregator.aggregator:Starting round 35...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator one for round 35
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator two for round 35
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for train, round 35
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for train, round 35
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for localy_tuned_model_validate, round 35
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for localy_tuned_model_validate, round 35
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for aggregated_model_validate, round 35
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for aggregated_model_validate, round 35
+INFO:openfl.component.aggregator.aggregator:aggregated_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.7608
+INFO:openfl.component.aggregator.aggregator:train task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> train_loss:	0.1632
+INFO:openfl.component.aggregator.aggregator:localy_tuned_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.7296
+INFO:openfl.component.aggregator.aggregator:Saving round 36 model...
+INFO:openfl.component.aggregator.aggregator:Starting round 36...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator two for round 36
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator one for round 36
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for train, round 36
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for train, round 36
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for localy_tuned_model_validate, round 36
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for localy_tuned_model_validate, round 36
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for aggregated_model_validate, round 36
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for aggregated_model_validate, round 36
+INFO:openfl.component.aggregator.aggregator:aggregated_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.7755
+INFO:openfl.component.aggregator.aggregator:Saved the best model with score 0.775454
+INFO:openfl.component.aggregator.aggregator:train task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> train_loss:	0.1608
+INFO:openfl.component.aggregator.aggregator:localy_tuned_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.7294
+INFO:openfl.component.aggregator.aggregator:Saving round 37 model...
+INFO:openfl.component.aggregator.aggregator:Starting round 37...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator two for round 37
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator one for round 37
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for train, round 37
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for train, round 37
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for localy_tuned_model_validate, round 37
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for localy_tuned_model_validate, round 37
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for aggregated_model_validate, round 37
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for aggregated_model_validate, round 37
+INFO:openfl.component.aggregator.aggregator:aggregated_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.7561
+INFO:openfl.component.aggregator.aggregator:train task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> train_loss:	0.1475
+INFO:openfl.component.aggregator.aggregator:localy_tuned_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.7315
+INFO:openfl.component.aggregator.aggregator:Saving round 38 model...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator one for round 38
+INFO:openfl.component.aggregator.aggregator:Starting round 38...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator two for round 38
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for train, round 38
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for localy_tuned_model_validate, round 38
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for train, round 38
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for aggregated_model_validate, round 38
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for localy_tuned_model_validate, round 38
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for aggregated_model_validate, round 38
+INFO:openfl.component.aggregator.aggregator:aggregated_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.7540
+INFO:openfl.component.aggregator.aggregator:train task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> train_loss:	0.1380
+INFO:openfl.component.aggregator.aggregator:localy_tuned_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.7310
+INFO:openfl.component.aggregator.aggregator:Saving round 39 model...
+INFO:openfl.component.aggregator.aggregator:Starting round 39...
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator two for round 39
+INFO:openfl.component.aggregator.aggregator:Sending tasks to collaborator one for round 39
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for train, round 39
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for train, round 39
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for localy_tuned_model_validate, round 39
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for localy_tuned_model_validate, round 39
+INFO:openfl.component.aggregator.aggregator:Collaborator one is sending task results for aggregated_model_validate, round 39
+INFO:openfl.component.aggregator.aggregator:Collaborator two is sending task results for aggregated_model_validate, round 39
+INFO:openfl.component.aggregator.aggregator:aggregated_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.7620
+INFO:openfl.component.aggregator.aggregator:train task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> train_loss:	0.1378
+INFO:openfl.component.aggregator.aggregator:localy_tuned_model_validate task metrics...
+INFO:openfl.component.aggregator.aggregator:<openfl.component.aggregation_functions.weighted_average.WeightedAverage object at 0x7fa2d31b98e0> dice_coef:	0.7116
+INFO:openfl.component.aggregator.aggregator:Saving round 40 model...
+INFO:openfl.component.aggregator.aggregator:Sending signal to collaborator one to shutdown...
+INFO:openfl.component.aggregator.aggregator:Experiment Completed. Cleaning up...
+INFO:openfl.component.aggregator.aggregator:Sending signal to collaborator two to shutdown...
