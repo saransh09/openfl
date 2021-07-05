@@ -4,3 +4,5 @@
 *.pkl
 *.pbuf
 *.zip
+*.pyc
+*__pycache__*
